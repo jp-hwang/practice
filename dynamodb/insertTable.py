@@ -16,7 +16,7 @@ response = table.put_item(
         'year': year,
         'title': title,
         'info': {
-            'plot':"What's up man",
+            'plot':"What's up man1",
             'rating': decimal.Decimal(0)
         }
     }

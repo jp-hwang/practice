@@ -21,8 +21,8 @@ table = dynamodb.Table('Movies')
 title = "The Big New Movie"
 year = 2015
 
-# title = "Avengers"
-# year = 2018
+title = "Avengers"
+year = 2018
 
 try:
     response = table.get_item(
